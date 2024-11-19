@@ -6,7 +6,7 @@ namespace Tyuiu.SenachevAV.Sprint4.Task6.V1.Lib
     {
         public int Calculate(string[] array)
         {
-            string[] mas = Array.FindAll(array, fruits => fruits.Length >= 6);
+            string[] mas = Array.FindAll(array, fruits => fruits.Length == 6);
             return mas.Length;
         }
     }
